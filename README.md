@@ -16,7 +16,7 @@ fileguess() {
                     echo "Try Again...Your guess is to high than the true number"
                 continue;
                 else
-                    echo " Congratulations User!..You are right!"
+                    echo "Congratulations. You did it"
                 break;
                 fi
             else
