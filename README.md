@@ -3,7 +3,7 @@ fileguess() {
     ans_right=$(ls -A|wc -l)
     while true;
     do
-        echo "Hi User! Guess the number of files present in the current working directory?"
+        echo "Hey. Guess the number of files in the working directory?"
         read  number_guessed
         if [[ $number_guessed ]] && [ $number_guessed -eq $number_guessed 2>/dev/null ]
             then
